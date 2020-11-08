@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+.container.top-nav {
+    margin: 1.875rem;
+}
+
+.top-nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.top-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header-img {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+nav img {
+    padding-top: 1.875rem;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +142,46 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +213,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page {
+    width: 900px;
+    margin: 0 auto;
+} 
+
+.body-about {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.about-nav {
+    display: flex;
+}
+
+.about-nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.about-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.about-header-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+}
+
+.top-half {
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 40px;
+}
+
+.bottom-half {
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 40px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
