@@ -72,7 +72,7 @@ p {
 }
 
 .container.top-nav {
-    margin: 30px;
+    margin: 1.875rem;
 }
 
 .top-nav {
@@ -85,7 +85,20 @@ p {
     color: black;
     justify-content: space-between;
     padding: 30px;
-    padding-bottom: 2%;
+}
+
+.top-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header-img {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+nav img {
+    padding-top: 1.875rem;
 }
 
 .top-content {
