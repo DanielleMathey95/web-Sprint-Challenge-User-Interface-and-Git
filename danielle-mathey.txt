@@ -1,9 +1,19 @@
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Sementic HTML is a way of formatting the HTML file in a way that makes it not only more readable for the browser but also for whoever reads your code, it also makes it more accessible.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    With display inline you can set a width and a height on an element, while with display block you can have elements display next to other elements.
 
 3. What are the 4 areas of the box model?
 
+    Content, border, padding, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    It follows the vertical axis
+
 5. Explain why git is valuable to a team of developers.
+
+    When working on a project with multiple developers using Git, you are able to see everyone else's code. Also, you are able to work on different pieces of the project at the same time and see where mistakes were made. You can also figure out how to fix them or revert back with your own code and see if that fixes what's broken. 
