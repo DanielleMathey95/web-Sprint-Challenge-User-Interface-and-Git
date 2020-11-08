@@ -214,3 +214,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page {
+    width: 900px;
+    margin: 0 auto;
+} 
+
+.body-about {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.about-nav {
+    display: flex;
+}
+
+.about-nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.about-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.about-header-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+}
+
+.top-half {
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 40px;
+}
+
+.bottom-half {
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 40px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
